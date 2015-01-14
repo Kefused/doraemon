@@ -1,5 +1,5 @@
 doraemon
 ========
 
-Doreamon Project Firmware (attiny861)
+Doreamon Project
 
