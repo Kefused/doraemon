@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/kefused/Documents/Projects/doraemon/pcb/pcb_v2/doraemon.sch</source>
+    <date>mar. 25 nov. 2014 18:15:40 CET</date>
+    <tool>Eeschema (2014-10-30 BZR 5240)-product</tool>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>ATTINY861A-S</value>
+      <footprint>doraemon_footprint:AB2_SO20_W</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1598190.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1841628</field>
+      </fields>
+      <libsource lib="atmel" part="ATTINY861A-S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5425445B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">2332715</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>542547BE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">2332715</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>542547ED</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">1612522</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54254B00</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">2332715</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54255592</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AT45DB161E-SHD-B</value>
+      <footprint>libcms:SO8E</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1641590.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2136670</field>
+      </fields>
+      <libsource lib="doraemon" part="AT45DB161E-SHD-B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54255AC1</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">2332715</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54255FA9</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>ICSP</value>
+      <footprint>doraemon_footprint:icsp</footprint>
+      <libsource lib="conn" part="CONN_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>542581EE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>L6920</value>
+      <footprint>doraemon_footprint:AB2_TSSOP08</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1690389.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1077152</field>
+      </fields>
+      <libsource lib="doraemon" part="L6920"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54260351</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>doraemon_footprint:DO1608C</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1681900.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2287199</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>542608AA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47uF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">1886100</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5426090B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">2332715</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>542614E2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">1833845</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54262230</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47uF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">1886100</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54262255</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>HALL</value>
+      <footprint>doraemon_footprint:3wire</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1697810.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1225624</field>
+      </fields>
+      <libsource lib="conn" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54263ACC</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>SPEAKER</value>
+      <footprint>doraemon_footprint:2wire</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1738933.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2357168</field>
+      </fields>
+      <libsource lib="conn" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54264905</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>MOTOR</value>
+      <footprint>doraemon_footprint:2wire</footprint>
+      <libsource lib="conn" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>542653B4</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>BATTERY</value>
+      <footprint>doraemon_footprint:2wire</footprint>
+      <libsource lib="conn" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54274334</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MOSFET_N</value>
+      <footprint>doraemon_footprint:SOT23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1788502.pdf</datasheet>
+      <fields>
+        <field name="Farnell">9512608</field>
+      </fields>
+      <libsource lib="device" part="MOSFET_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5426C57E</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SWITCH_INV</value>
+      <footprint>doraemon_footprint:SWITCH</footprint>
+      <datasheet>http://www.farnell.com/datasheets/84462.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1123872</field>
+      </fields>
+      <libsource lib="device" part="SWITCH_INV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54287E1B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TPA301</value>
+      <footprint>doraemon_footprint:TPA301</footprint>
+      <libsource lib="doraemon" part="TPA301"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545A3440</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2.2uF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">1288262</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545A43C5</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">2332715</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545A47D1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">2341030</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545A489C</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">1833845</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545A6104</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.47uF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">1867963 </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545A6D65</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>50k</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">2141884</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545A6DFE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">1612522</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545A78CC</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>5pF</value>
+      <footprint>libcms:SM0805</footprint>
+      <fields>
+        <field name="Farnell">2332708</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545A87D3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="MOS_N">
+      <aliases>
+        <alias>MOSFET_N</alias>
+      </aliases>
+      <docs>transistors/mos/*.*</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SWITCH_INV">
+      <description>Switch inverseur</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SWITCH_INV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_2">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_3">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CONN_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_5">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="ATTINY261A-S">
+      <aliases>
+        <alias>ATTINY461A-S</alias>
+        <alias>ATTINY861A-S</alias>
+      </aliases>
+      <description>ATTINY261A, SO20, 2k Flash, 128B SRAM, 128B EEPROM</description>
+      <docs>http://www.atmel.com/dyn/resources/prod_documents/doc8197.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATTINY261A-S</field>
+        <field name="Footprint">SO20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(MOSI/DI/SDA/~OC1A~/PCINT8)PB0" type="BiDi"/>
+        <pin num="2" name="(MISO/DO/OC1A/PCINT9)PB1" type="BiDi"/>
+        <pin num="3" name="(SCK/USCK/SCL/~OC1B~/PCINT10)PB2" type="BiDi"/>
+        <pin num="4" name="(OC1B/PCINT11)PB3" type="BiDi"/>
+        <pin num="5" name="VCC" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="(ADC7/~OC1D~/CLKI/XTAL1/PCINT12)PB4" type="BiDi"/>
+        <pin num="8" name="(ADC8/OC1D/CLKO/XTAL2/PCINT13)PB5" type="BiDi"/>
+        <pin num="9" name="(ADC9/INT0/T0/PCINT14)PB6" type="BiDi"/>
+        <pin num="10" name="(ADC10/~RESET~/PCINT15)PB7" type="BiDi"/>
+        <pin num="11" name="(ADC6/AIN1/PCINT7)PA7" type="BiDi"/>
+        <pin num="12" name="(ADC5/AIN0/PCINT6)PA6" type="BiDi"/>
+        <pin num="13" name="(ADC4/AIN2/PCINT5)PA5" type="BiDi"/>
+        <pin num="14" name="(ADC3/ICP0/PCINT4)PA4" type="BiDi"/>
+        <pin num="15" name="AVCC" type="power_in"/>
+        <pin num="16" name="AGND" type="power_out"/>
+        <pin num="17" name="(AREF/PCINT3)PA3" type="BiDi"/>
+        <pin num="18" name="(ADC2/INT1/USCK/SCL/PCINT2)PA2" type="BiDi"/>
+        <pin num="19" name="(ADC1/DO/PCINT1)PA1" type="BiDi"/>
+        <pin num="20" name="(ADC0/DI/SDA/PCINT0)PA0" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="doraemon" part="AT45DB161E-SHD-B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT45DB161E-SHD-B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SI" type="input"/>
+        <pin num="2" name="SCK" type="input"/>
+        <pin num="3" name="~RESET" type="input"/>
+        <pin num="4" name="~CS" type="input"/>
+        <pin num="5" name="~WP" type="input"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="SO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="doraemon" part="L6920">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L6920</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="LBI" type="input"/>
+        <pin num="3" name="~LBO" type="input"/>
+        <pin num="4" name="VREF" type="input"/>
+        <pin num="5" name="~SHDN" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="VBATT" type="input"/>
+        <pin num="8" name="VOUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="doraemon" part="TPA301">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPA301</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SHUTDOWN" type="input"/>
+        <pin num="2" name="BYPASS" type="input"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="IN-" type="input"/>
+        <pin num="5" name="Vo+" type="output"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="Vo-" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>/usr/share/kicad/library/atmel.lib</uri>
+    </library>
+    <library logical="doraemon">
+      <uri>/home/kefused/Documents/Projects/doraemon/pcb/pcb_v2/doraemon.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2"/>
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="2" name="FLASH_CS">
+      <node ref="IC1" pin="14"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="3" name="FLASH_DO">
+      <node ref="IC1" pin="19"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="4" name="FLASH_SCK">
+      <node ref="U3" pin="2"/>
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="5" name="FLASH_DI">
+      <node ref="U3" pin="8"/>
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="P1" pin="5"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="K1" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Q1" pin="S"/>
+      <node ref="IC1" pin="16"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="7" name="MOTOR+">
+      <node ref="IC1" pin="5"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="K1" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="9" name="MOSI">
+      <node ref="P1" pin="2"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="10" name="MISO">
+      <node ref="P1" pin="1"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="11" name="SCK">
+      <node ref="IC1" pin="3"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="12" name="~RESET">
+      <node ref="IC1" pin="10"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="13" name="Net-(C1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="14" name="HALL">
+      <node ref="K1" pin="2"/>
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="15" name="SPEAKER_PWM">
+      <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="16" name="MOTOR_CTRL">
+      <node ref="Q1" pin="G"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="17" name="SPEAKER+">
+      <node ref="P3" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="18" name="SPEAKER-">
+      <node ref="U2" pin="8"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="19" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="20" name="SPEAKER_CTRL">
+      <node ref="U2" pin="1"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="21" name="Net-(C10-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="22" name="Net-(C7-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="25" name="+BATT">
+      <node ref="P2" pin="1"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="26" name="MOTOR-">
+      <node ref="Q1" pin="D"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="27" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="28" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="29" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="30" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+  </nets>
+</export>

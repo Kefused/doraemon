@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name doraemon_footprint)(type KiCad)(uri /home/kefused/Documents/Projects/doraemon/pcb/pcb_v2/footprint.pretty)(options "")(descr ""))
+  (lib (name soic_wide)(type Legacy)(uri /home/kefused/Documents/Projects/doraemon/pcb/pcb_v2/old_footprint_lib/ramtron.mod)(options "")(descr ""))
+)
